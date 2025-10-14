@@ -25,3 +25,13 @@ spec:
           image: nginx:latest
           ports:
             - containerPort: 80
+
+          volumeMounts:
+            - name: myVolume
+              mountPath: /var/lib/mysql
+              
+      volumes:
+        - name: myVolume
+          persistentVolumeClaim: 
+            claimName: mysql-pvc    # your Persistent Volume name
+      
