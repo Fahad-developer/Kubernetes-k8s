@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+
+metadata:
+  name: nginx-service
+  namespace: nginx
+
+spec:
+  selector:         # ye un pods ko connect karega jinke paas app=nginx label hai
+    app: nginx
+  
+  ports:
+    - protocol: TCP
+      port: 82         # service ka port (users yahan connect karte hain)
+      targetPort: 80   # container ke andar nginx chal raha hai is port pe
