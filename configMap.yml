@@ -1,0 +1,9 @@
+kind: configMap
+version: v1
+
+metadata:
+  name: mysql-config-map
+  namespace: nginx
+
+data:
+  database: myDB
