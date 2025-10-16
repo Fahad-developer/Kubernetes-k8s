@@ -13,6 +13,11 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    9- Persistent Volume Claim <br/>
    10- Horizental Pod Autoscaling (HPA)
 
+
+<h3>1- Cluster</h3> <br/>
+A Cluster in Kubernetes is a group of machines (nodes) that work together to run containerized applications.
+It consists of a control plane (manages the cluster) and worker nodes (run the applications).
+
 # Commands for Kubernetes
 
 kubectl describe pod/Pod Name -n mysql
