@@ -74,6 +74,7 @@ It’s ideal for automated jobs like backups, report generation, or cleanup task
 # Commands for Kubernetes
 
 ```bash
+# Shows detailed information about a specific Pod (Pod Name) in the "mysql" namespace, including status, containers, events, and resource usage.
 kubectl describe pod/Pod Name -n mysql
 ```
 
