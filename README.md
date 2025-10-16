@@ -11,10 +11,10 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    7- Secrets <br/>
    8- Persistent Volume <br/>
    9- Persistent Volume Claim <br/>
-   10- Horizental Pod Autoscaling (HPA)
-   11- Vertical pod Autoscaling (VPA)
-   12- Namespace
-   13- Cron Job
+   10- Horizental Pod Autoscaling (HPA) <br/>
+   11- Vertical pod Autoscaling (VPA) <br/>
+   12- Namespace <br/>
+   13- Cron Job <br/>
 
 
 <h3>1- Cluster:</h3> <br/> 
