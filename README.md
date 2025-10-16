@@ -11,6 +11,7 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    7- Secrets <br/>
    8- Persistent Volume <br/>
    9- Persistent Volume Claim <br/>
+   10- Horizental Pod Autoscaling (HPA)
 
 # Commands for Kubernetes
 
