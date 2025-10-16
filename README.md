@@ -14,9 +14,13 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    10- Horizental Pod Autoscaling (HPA)
 
 
-<h3>1- Cluster</h3> <br/> 
+<h3>1- Cluster:</h3> <br/> 
 A Cluster in Kubernetes is a group of machines (nodes) that work together to run containerized applications.
 It consists of a control plane (manages the cluster) and worker nodes (run the applications). To create a cluster we write cluster.yml
+
+<h2>2- Pod:</h2>
+A **Pod** in Kubernetes is the smallest deployable unit that runs one or more containers together.
+All containers inside a Pod share the same **network (IP address)** and **storage (volumes)**.
 
 # Commands for Kubernetes
 
