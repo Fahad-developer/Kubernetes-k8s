@@ -79,6 +79,7 @@ kubectl describe pod/Pod Name -n mysql
 ```
 
 ```bash
+# Displays the logs/output of the specified Pod (Pod Name) in the "mysql" namespace.
 kubectl logs pod/Pod Name -n mysql
 ```
 
@@ -88,6 +89,7 @@ echo -n "Admin123" | base64
 ```
 
 ```bash
+# Opens an interactive bash shell inside the specified Pod (Pod Name) in the given namespace.
 kubectl exec -it pod name -n name space --bash
 ```
 
