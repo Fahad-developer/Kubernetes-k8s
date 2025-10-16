@@ -1,0 +1,21 @@
+kind: CronJob
+apiVersion: batch/v1
+
+metadata:
+  name: backup-job
+  namespace: default
+  
+spec:
+  schedule: "0 */6 * * *" # har 6 ghantay baad
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: backup
+            image: busybox
+            args:
+            - /bin/sh
+            - -c
+            - echo "Database backup complete at $(date)"
+          restartPolicy: OnFailure
