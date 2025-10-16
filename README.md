@@ -73,10 +73,18 @@ It’s ideal for automated jobs like backups, report generation, or cleanup task
 
 # Commands for Kubernetes
 
+```bash
 kubectl describe pod/Pod Name -n mysql
-kubectl logs pod/Pod Name -n mysql
+```
 
-echo -n "Admin123" | base64    => jab kubernetes ka cluster ma ya pounchti hai to wo isa binary ma convert kr ka store krta etcd ma yani mazeed secure kr deta.
+```bash
+kubectl logs pod/Pod Name -n mysql
+```
+
+```bash
+# jab kubernetes ka cluster ma ya pounchti hai to wo isa binary ma convert kr ka store krta etcd ma yani mazeed secure kr deta.
+echo -n "Admin123" | base64 
+```
 
 ```bash
 kubectl exec -it pod name -n name space --bash
