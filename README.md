@@ -13,6 +13,8 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    9- Persistent Volume Claim <br/>
    10- Horizental Pod Autoscaling (HPA)
    11- Vertical pod Autoscaling (VPA)
+   12- Namespace
+   13- Cron Job
 
 
 <h3>1- Cluster:</h3> <br/> 
@@ -55,10 +57,17 @@ It automatically binds to a suitable Persistent Volume (PV) that meets its stora
 Horizontal Pod Autoscaling (HPA) in Kubernetes automatically increases or decreases the number of Pods in a deployment.
 It adjusts the Pod count based on CPU, memory, or custom metrics to match the app’s workload. To create a Horizontal Pod Autoscaling we create hpa.yml
 
-<h3>Vertical Pod Autoscaling (VPA):</h3>
+<h3>11- Vertical Pod Autoscaling (VPA):</h3>
 Vertical Pod Autoscaling (VPA) in Kubernetes automatically adjusts CPU and memory limits of Pods.
 Instead of adding more Pods, it resizes existing ones to give them the right amount of resources. To create Vertical Pod Autoscaling we create vpa.yml
 
+<h3>12- Namespace:</h3>
+A Namespace in Kubernetes is used to divide a cluster into virtual environments.
+It helps organize and isolate resources like Pods, Services, and Deployments within the same cluster. To create a Namespace we write namespace.yml
+
+<h3>13- Cron Job:</h3>
+A CronJob in Kubernetes is used to run tasks on a schedule, just like Linux cron.
+It’s ideal for automated jobs like backups, report generation, or cleanup tasks at specific times. To create a Cron Job we write cronjob.yml
 
 
 
