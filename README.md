@@ -82,6 +82,9 @@ echo -n "Admin123" | base64    => jab kubernetes ka cluster ma ya pounchti hai t
 kubectl exec -it pod name -n name space --bash
 
 <h5>You have to install VPA (Vertical Pod Autoscalling) because ya pehla sa kubernetes ma install hoka nahi ata.</h5>
+
 ```bash
+# This is a command box
 kubectl apply -f https://github.com/kubernetes/autoscaler/releases/latest/download/vertical-pod-autoscaler.yaml
+
 
