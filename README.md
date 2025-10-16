@@ -78,12 +78,12 @@ kubectl logs pod/Pod Name -n mysql
 
 echo -n "Admin123" | base64    => jab kubernetes ka cluster ma ya pounchti hai to wo isa binary ma convert kr ka store krta etcd ma yani mazeed secure kr deta.
 
-
+```bash
 kubectl exec -it pod name -n name space --bash
+```
 
 <h5>You have to install VPA (Vertical Pod Autoscalling) because ya pehla sa kubernetes ma install hoka nahi ata.</h5>
 
 ```bash
 kubectl apply -f https://github.com/kubernetes/autoscaler/releases/latest/download/vertical-pod-autoscaler.yaml
-
-
+```
