@@ -2,15 +2,15 @@
 This Repository contains Kubernetes YML files and Commands for personal / Future and Refrence Use.
 
 #Topics:
-   1- Cluster
-   2- Pod
-   3- Deployment
-   4- services
-   5- Ingress
-   6- ConfigMaps
-   7- Secrets
-   8- Persistent Volume
-   9- Persistent Volume Claim
+   1- Cluster <br/>
+   2- Pod <br/>
+   3- Deployment <br/>
+   4- services <br/>
+   5- Ingress <br/>
+   6- ConfigMaps <br/>
+   7- Secrets <br/>
+   8- Persistent Volume <br/>
+   9- Persistent Volume Claim <br/>
 
 # Commands for Kubernetes
 
