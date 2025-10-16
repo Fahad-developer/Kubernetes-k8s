@@ -84,3 +84,7 @@ kubectl exec -it pod name -n name space --bash
 <h5>You have to install VPA (Vertical Pod Autoscalling) because ya pehla sa kubernetes ma install hoka nahi ata.</h5>
 <h5>Command: </h5> kubectl apply -f https://github.com/kubernetes/autoscaler/releases/latest/download/vertical-pod-autoscaler.yaml
 
+
+```bash
+# This is a command box
+docker-compose up --build -d
