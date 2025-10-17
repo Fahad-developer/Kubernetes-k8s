@@ -15,6 +15,7 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    11- Vertical pod Autoscaling (VPA) <br/>
    12- Namespace <br/>
    13- Cron Job <br/>
+   14- Helm <br/>
 
 
 <h3>1- Cluster:</h3> <br/> 
@@ -68,6 +69,18 @@ It helps organize and isolate resources like Pods, Services, and Deployments wit
 <h3>13- Cron Job:</h3>
 A CronJob in Kubernetes is used to run tasks on a schedule, just like Linux cron.
 It’s ideal for automated jobs like backups, report generation, or cleanup tasks at specific times. To create a Cron Job we write cronjob.yml
+
+<h3>14- Helm:</h3>
+Helm Chart = ek folder jismein sab YAML files (Deployment, Service, PVC, etc.)
+ready-made hoti hain — jaise ek “app template”.
+
+| File/Folder   | Kaam                                                  |
+| ------------- | ----------------------------------------------------- |
+| `mychart/`    | Chart ka main folder                                  |
+| `Chart.yaml`  | Chart info (metadata)                                 |
+| `values.yaml` | Configurations aur variables                          |
+| `templates/`  | Kubernetes YAML templates (Deployment, Service, etc.) |
+
 
 
 
