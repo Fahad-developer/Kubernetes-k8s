@@ -71,8 +71,8 @@ A CronJob in Kubernetes is used to run tasks on a schedule, just like Linux cron
 It’s ideal for automated jobs like backups, report generation, or cleanup tasks at specific times. To create a Cron Job we write cronjob.yml
 
 <h3>14- Helm:</h3>
-Helm Chart = ek folder jismein sab YAML files (Deployment, Service, PVC, etc.)
-ready-made hoti hain — jaise ek “app template”.
+Helm Kubernetes apps ko install, update, aur remove karna easy banata hai.
+YAML files manually likhnay ki zarurat nahi rehti.
 
 | File/Folder   | Kaam                                                  |
 | ------------- | ----------------------------------------------------- |
