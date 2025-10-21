@@ -3,17 +3,17 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
 
 # Topics: <br/>
    1- Cluster <br/>
-   2- Pod <br/>
-   3- Deployment <br/>
-   4- services <br/>
-   5- Ingress <br/>
-   6- ConfigMaps <br/>
-   7- Secrets <br/>
-   8- Persistent Volume <br/>
-   9- Persistent Volume Claim <br/>
-   10- Horizental Pod Autoscaling (HPA) <br/>
-   11- Vertical pod Autoscaling (VPA) <br/>
-   12- Namespace <br/>
+   2- Namespace <br/>
+   3- Pod <br/>
+   4- Deployment <br/>
+   5- services <br/>
+   6- Ingress <br/>
+   7- ConfigMaps <br/>
+   8- Secrets <br/>
+   9- Persistent Volume <br/>
+   10- Persistent Volume Claim <br/>
+   11- Horizental Pod Autoscaling (HPA) <br/>
+   12- Vertical pod Autoscaling (VPA) <br/>
    13- Cron Job <br/>
    14- Helm <br/>
 
