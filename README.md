@@ -36,7 +36,7 @@ It provides a stable IP and DNS name so other apps or users can access the Pods 
 
 <h3>5- Ingress:</h3>
 An Ingress in Kubernetes is used to manage external access to services, usually over HTTP or HTTPS.
-It acts like a smart router, directing incoming traffic to the right service based on rules or URLs. To create a Ingress we write ingress.yml
+Ingress ek Kubernetes resource hai jo external traffic (Internet se) ko cluster ke andar services tak pahunchata hai.
 
 <h3>6- configMaps:</h3>
 A ConfigMap in Kubernetes is used to store non-confidential configuration data (like environment variables or settings).
