@@ -8,6 +8,7 @@ metadata:
 spec:
   selector:         # ye un pods ko connect karega jinke paas app=nginx label hai
     app: nginx
+# type: LoadBalancer
   
   ports:
     - protocol: TCP
