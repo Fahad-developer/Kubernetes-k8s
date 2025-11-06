@@ -17,6 +17,7 @@ This Repository contains Kubernetes YML files and Commands for personal / Future
    13- Cron Job <br/>
    14- Helm <br/>
    15- ResourceQuota <br/>
+   16- StatefulSets <br/>
 
 
 <h3>1- Cluster:</h3> <br/> 
