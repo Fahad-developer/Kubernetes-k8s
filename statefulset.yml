@@ -8,7 +8,7 @@ spec:
       app: nginx # has to match .spec.template.metadata.labels
   serviceName: "nginx"
   replicas: 3 # by default is 1
-  minReadySeconds: 10 # by default is 0
+  minReadySeconds: 10 # by default is 0, iska matlab hai pod ready hone ke baad itne seconds tak stable rahe tabhi traffic milega.
   template:
     metadata:
       labels:
